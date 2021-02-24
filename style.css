@@ -4,4 +4,31 @@
   margin: 0;
   font-family: 微軟正黑體;
 }
+
+nav {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  padding: 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+}
+
+section {
+  height: 100vh;
+}
+
+section:nth-of-type(odd) {
+  background: #b48888;
+}
+
+section:nth-of-type(even) {
+  background: #5aa1b3;
+}
 /*# sourceMappingURL=style.css.map */

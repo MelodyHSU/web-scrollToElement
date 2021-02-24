@@ -5,14 +5,29 @@
 }
 
 nav {
-    background-color: rgb(87, 87, 87, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     height: 100px;
+    position: fixed;
+    width: 100%;
+   
 
     a {
         padding: 30px;
+        text-decoration: none;
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
     }
 }
 
 section {
     height: 100vh;
+
+    &:nth-of-type(odd) {
+        background: rgb(180, 136, 136);
+    }
+
+    &:nth-of-type(even) {
+        background: rgb(90, 161, 179);
+    }
 }
