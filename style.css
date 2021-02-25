@@ -22,13 +22,17 @@ nav a {
 
 section {
   height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 80px;
+  color: #bddbbf;
 }
 
 section:nth-of-type(odd) {
-  background: #b48888;
+  background: #af8891;
 }
 
 section:nth-of-type(even) {
-  background: #5aa1b3;
+  background: #7baab4;
 }
 /*# sourceMappingURL=style.css.map */

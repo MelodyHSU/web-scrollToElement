@@ -22,12 +22,16 @@ nav {
 
 section {
     height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 80px;
+    color: rgb(189, 219, 191);
 
     &:nth-of-type(odd) {
-        background: rgb(180, 136, 136);
+        background: rgb(175, 136, 145);
     }
 
     &:nth-of-type(even) {
-        background: rgb(90, 161, 179);
+        background: rgb(123, 170, 180);
     }
 }
