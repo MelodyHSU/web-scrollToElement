@@ -61,6 +61,8 @@ $(window).scroll(function () {
     console.log("箭頭要出現的位置:" + arrowTop);
     console.log("箭頭特效的時間:" + arrowTime);
 
+     // 如果 視窗位置 大於等於 箭頭上方 就 淡入
     if (windowTop >= arrowTop) arrow.stop().fedeIn(arrowTimeInt);
+    // 否則 就 淡出
     else arrow.stop().fadeOut(arrowTimeInt)
 });
