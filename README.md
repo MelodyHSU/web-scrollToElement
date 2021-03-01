@@ -2,9 +2,9 @@
 網站下拉捲動至最上方
 
 # 範例
-https://melodyhsu.github.io/web-scrollToElement/.
-```
 
+```
+https://melodyhsu.github.io/web-scrollToElement/.
 ```
 # 使用方式
 ## CDN
