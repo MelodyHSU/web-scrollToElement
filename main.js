@@ -39,7 +39,7 @@ $("a").each(function (index, element) {
     });
 });
 // 滑鼠滾動時停止動態
-$("html").on("mousewheel" , function (){
+$("html").on("mousewheel" , function () {
     $("html").stop();
 });
 
@@ -50,7 +50,7 @@ arrow.fadeOut();
 // 箭頭顯示與隱藏效果
 $(window).scroll(function () {
     var windowTop = $(this).scrollop();
-    console.log("視窗上方位置:" + windowTop);
+    // console.log("視窗上方位置:" + windowTop);
 
 
     var arrowTop = arrow.attr("data-st-top");
