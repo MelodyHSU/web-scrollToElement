@@ -61,6 +61,6 @@ $(window).scroll(function () {
     console.log("箭頭要出現的位置:" + arrowTop);
     console.log("箭頭特效的時間:" + arrowTime);
 
-    if (windowTop >= arrowTop) arrow. feddIn(arrowTimeInt);
-    else arrow.fedeOut(arrowTimeInt)
+    if (windowTop >= arrowTop) arrow.stop().fedeIn(arrowTimeInt);
+    else arrow.stop().fadeOut(arrowTimeInt)
 });
