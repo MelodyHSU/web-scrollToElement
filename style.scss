@@ -35,3 +35,16 @@ section {
         background: rgb(123, 170, 180);
     }
 }
+
+// 箭頭樣式
+#arrow {
+    background-image: url(./arrow.png);
+    width: 62px;
+    height: 62px;
+    position: fixed;
+    right: 65px;
+    bottom: 65px;
+    z-index: 3;
+    cursor: pointer;
+}
+

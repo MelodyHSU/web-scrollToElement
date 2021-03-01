@@ -38,7 +38,29 @@ $("a").each(function (index, element) {
         }, parseInt(duration));
     });
 });
-
+// 滑鼠滾動時停止動態
 $("html").on("mousewheel" , function (){
     $("html").stop();
+});
+
+var arrow = $("#arrow");
+arrow.fadeOut();
+
+
+// 箭頭顯示與隱藏效果
+$(window).scroll(function () {
+    var windowTop = $(this).scrollop();
+    console.log("視窗上方位置:" + windowTop);
+
+
+    var arrowTop = arrow.attr("data-st-top");
+    var arrowTime = arrow.attr("data-st-time");
+    var arrowTimeInt = parseInt(arrowTime);
+
+
+    console.log("箭頭要出現的位置:" + arrowTop);
+    console.log("箭頭特效的時間:" + arrowTime);
+
+    if (windowTop >= arrowTop) arrow. feddIn(arrowTimeInt);
+    else arrow.fedeOut(arrowTimeInt)
 });
